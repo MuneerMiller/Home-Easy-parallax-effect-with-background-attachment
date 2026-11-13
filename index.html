@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
         <title>Mountain Star Zlatibor</title>
-        <meta name="description" content="">
+        <meta name="description" content="A landing page for Mount Zlatibor with a CSS-only parallax effect made with background-attachment: fixed.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
 
-        <div class="container">
+        <header class="container">
             <h1>Mountain Star Zlatibor</h1>
             <p>
-                Zlatibor is a mountain of exceptional beauty whose special geographical properties have made this mountain a real gem fo western Serbia.
+                Zlatibor is a mountain of exceptional beauty whose special geographical properties have made this mountain a real gem of western Serbia.
             </p>
-            <a href="#"> Learn More</a>
-        </div>
+            <a href="#activities">Explore activities</a>
+        </header>
 
         <div class="blank"></div>
 
-        <div class="container second">
-            <div class="item">
-                <div class="img img-first"></div>
+        <main id="activities" class="container second">
+            <h2 class="visually-hidden">Activities</h2>
+            <article class="item">
+                <div class="img img-first" role="img" aria-label="Rock climbing"></div>
                     <div class="card">
                         <h3>Rock climbing</h3>
                         <p>The goal is to reach the summit of a formation or the endpoint of a usually pre-defined route without falling</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn more</a>
                     </div>
-            </div>
-            <div class="item">
-                <div class="img img-second"> </div>
+            </article>
+            <article class="item">
+                <div class="img img-second" role="img" aria-label="Caving"></div>
                     <div class="card">
                         <h3>Caving</h3>
                         <p>Exploring underground through networks of tunnels and passageways, which can be natural or artificial.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn more</a>
                     </div>
-            </div>
+            </article>
 
-            <div class="item">
-                <div class="img img-third"></div>
+            <article class="item">
+                <div class="img img-third" role="img" aria-label="Parachuting"></div>
                     <div class="card">
                         <h3>Parachuting</h3>
                         <p>Jumping from an aeroplane and falling through the air before opening your parachute.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn more</a>
                     </div>
-            </div>
-        </div>
+            </article>
+        </main>
 
         <div class="blank"></div>
-
-        <!-- Add the signature image -->
-        <img src="path/to/your/signature.png" alt="Signature" class="signature">
 
     </body>
 </html>
